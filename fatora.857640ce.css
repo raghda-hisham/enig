@@ -903,7 +903,7 @@ nav {
     justify-content: space-around;
     padding: 70px 0; }
     .about-values .about-values-content .about-values-title {
-      font-size: 3.5rem; }
+      font-size: 3.1rem; }/*kant 3.5*/
     .about-values .about-values-content ul {
       list-style: none; }
   .about-values .about-values-bio {
@@ -961,7 +961,7 @@ nav {
     overflow: hidden;
     height: 100vh !important; }
   .about-mission-title {
-    font-size: 3.5rem !important; }
+    font-size: 3.1rem !important; }/*kant 3.5*/
   .about-values-subtitle {
     font-size: 1.2rem !important;
     padding: 20px 0; }
@@ -1058,9 +1058,9 @@ nav {
     font-weight: 300;
     font-size: 1.2rem; }
   .about-mission-title {
-    font-size: 2.5rem !important; }
+    font-size: 2.2rem !important; }
   .about-values-title {
-    font-size: 2.5rem !important; } }
+    font-size: 2.2rem !important; } }/*kant 2.5*/
 
 .header-cta {
   width: 500px !important; }

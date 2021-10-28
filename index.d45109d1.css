@@ -699,7 +699,7 @@ body::-webkit-scrollbar-thumb {
 .contactus-fildes .contactus-fildes-text .cfh {
       margin: 10px 0; }
 .contactus-fildes .contactus-fildes-text h1 {
-      font-size: 3.5rem; }
+      font-size: 3.1rem; }/*kant 3.5*/
 @media screen and (max-width: 800px) {
   .contactus {
     display: flex;

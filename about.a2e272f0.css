@@ -688,7 +688,12 @@ html {
   width: 30px;
   height: 30px;
   transform: translate(-40%, -25%);
-  transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1); }
+  transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  -webkit-transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  -moz-transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  -ms-transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  -o-transition: transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+}
 
 .button--fenrir:hover .progress {
   transform: scale3d(1.2, 1.2); }
@@ -706,7 +711,12 @@ html {
   stroke: #38a6dd;
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
-  transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1); }
+  transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  -webkit-transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  -moz-transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  -ms-transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+  -o-transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+}
 
 .header-cta:hover .progress__path {
   stroke-dashoffset: 0; }
@@ -852,7 +862,7 @@ a {
     justify-content: space-around;
     padding: 140px 0; }
     .about-mission .about-mission-content .about-mission-title {
-      font-size: 4.5rem; }
+      font-size: 4.2rem; }/*kant 4.5 3mltha 4.2*/
     .about-mission .about-mission-content ul {
       list-style: none; }
   .about-mission .about-mission-bio {
@@ -960,7 +970,7 @@ nav {
     font-weight: 300;
     font-size: 1.2rem; }
   .about-mission-title {
-    font-size: 3.5rem !important; } }
+    font-size: 3.1rem !important; } }/*kant 3.5 3mltha 3.1*/
 
 .about-values {
   height: 100%;
@@ -990,7 +1000,7 @@ nav {
     justify-content: space-around;
     padding: 140px 0; }
     .about-values .about-values-content .about-values-title {
-      font-size: 3.5rem; }
+      font-size: 3.1rem; }
     .about-values .about-values-content ul {
       list-style: none; }
   .about-values .about-values-bio {
@@ -1039,7 +1049,7 @@ nav {
 
 @media (max-width: 500px) {
   .about-mission-title {
-    font-size: 3.5rem !important; }
+    font-size: 3.2rem !important; }/*3.5 3mltha 3.2*/
   .about-values-subtitle {
     font-size: 1.2rem !important;
     padding: 20px 0; }
